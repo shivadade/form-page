@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width">
+        <title>Document</title>
+        <style>
+            #sign-up-form{
+                width:300px;
+                background-color:blue;
+                padding:24px;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            .input-label{
+                margin-bottom:5px;
+                margin-top:10px;
+            }
+            .input-item{
+                width:100%;
+            }
+            #checkboxid{
+                margin-top:10px;
+                margin-bottom:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align:center;">Sign Up</h1>
+        <form id="sign-up-form">
+            <p class="input label">Fullname:</p>
+            <input class="input item"type="text"name="fullname"><br>
+            <p class="input label">Email:</p>
+            <input class="input item"type="email"name="email"><br>
+            <p class="input label">Password:</p>
+            <input class="input item"type="password"name="password"><br>
+            <p class="input label">Confirm password:</p>
+            <input class="input item"type="pasword "name=password"><br>
+            <p class="input label">Gender:</p>
+            <input type="radio"name="Male">Male
+            <input type="radio"name="female">female
+            <input type="radio"name="others">others
+            <div>
+                <p class="input label">Security Question:</p>
+                <select name="security-question"id="">
+                    <option value="first-pet">what was your first pet name?</option>
+                    <option value="first-job">what was your first job?</option>
+                    <option value="nick-name">what was yor nick name?</option>
+                </select>
+                </div>
+                <div>
+                    <textarea name="answer" id="" colos="30" rows="5"></textarea>    
+               </div>
+               <div id="checkboxid">
+                   <input type="checkbox" name="term-conditions" value="accept"> i Agree to terms & term-conditions
+               </div>
+               <input type="submit" value="register">
+        </form>
+    </body>
+</html>
